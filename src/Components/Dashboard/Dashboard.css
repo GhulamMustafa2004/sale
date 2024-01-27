@@ -1,0 +1,21 @@
+.product-image {
+  height: 200px;
+}
+.card-text:last-child {
+  margin-bottom: 0;
+  height: 48px;
+}
+.detail-btn {
+  background-color: #002f34;
+  border: none;
+  border-radius: 5px;
+  color: #fff !important;
+  margin-top: 10px;
+  outline: none;
+  padding: 5px 14px;
+  width: 100%;
+  transition: 0.3s;
+}
+.detail-btn:hover {
+  background: #05383df8;
+}

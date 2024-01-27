@@ -1,0 +1,81 @@
+.productMain {
+  max-width: 1400px;
+  margin: 3rem auto;
+  padding-inline: 16px;
+  width: 100%;
+}
+.image-container {
+  background-color: rgba(0, 0, 0, 0.05);
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  position: relative;
+}
+.images {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+}
+.detail-container {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 16px 25px;
+}
+.captilize {
+  text-transform: capitalize;
+}
+.divider {
+  border-bottom: 1px solid #ddd;
+  margin: 16px 0;
+}
+.varition {
+  display: flex;
+  justify-content: space-between;
+}
+.m-10 {
+  margin-top: 25px;
+}
+@media screen and (max-width: 768px) {
+  .detail-card {
+    margin-top: 20px !important;
+  }
+  .image-parent-height {
+    height: 400px;
+  }
+  .carousel.slide {
+    padding-inline: 0px !important;
+  }
+  .carousel-inner .carousel-control-prev {
+    left: 0px !important;
+  }
+  .carousel-inner .carousel-control-next {
+    right: 0px !important;
+  }
+}
+
+.carousel.slide {
+  height: 90% !important;
+  padding-inline: 80px;
+  background: #002f34 !important;
+  border-radius: 20px !important;
+}
+.carousel-control-prev {
+  left: -17px !important;
+}
+.carousel-control-next {
+  right: -17px !important;
+}
+
+.carousel-inner {
+  position: relative;
+  width: 100% !important;
+  height: 100% !important;
+  overflow: hidden;
+}
+.carousel-item {
+  height: 100% !important;
+}
